@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://c4.wallpaperflare.com/wallpaper/290/509/288/pokemon-pikachu-wallpaper-preview.jpg);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45vw;
+    height: 55vh;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.searches{
+    margin-bottom: 15px;
+}
+input{
+    margin-top: 10px;
+    border: none;
+    height: 25px;
+}
+p{
+    margin-top: 5px;
+    font-size: larger;
+}
+.show{
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+}
+.show img{
+    width: 150px;
+    height:150px;
+}
+button{
+    padding: 5px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+}
